@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/store-go/models"
+	"github.com/ricardomaricato/store-go/models"
 )
 
 var tmpl = template.Must(template.ParseGlob("templates/*.html"))
