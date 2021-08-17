@@ -1,0 +1,7 @@
+Iniciando um Projeto GO:
+
+1. go mod init github.com/nome-do-repositório (local que estará armazenado o projeto)
+
+2. go mod vendor (cria o arquivo que irá gerenciar todas as dependências do projeto)
+
+3. go mod tidy (exclui todas as dependências/lib que não sendo utilizadas no seu projeto)
